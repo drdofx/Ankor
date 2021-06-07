@@ -6,13 +6,32 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Emilia - Gatsby Starter Portfolio`,
+    // Used for the title template on pages other than the index site
+    siteTitle: `Kelompok 3 Ankor`,
+    // Default title of the page
+    siteTitleAlt: `Kelompok 3 Ankor`,
+    // Can be used for e.g. JSONLD
+    siteHeadline: `Kelompok 3 Ankor - Final Project`,
+    // Will be used to generate absolute URLs for og:image etc.
+    siteUrl: `https://emilia.lekoarts.de`,
+    // Used for SEO
+    siteDescription: `Tugas akhir mengenai karya aksi nyata mata kuliah Anti Korupsi Universitas Paramadina`,
+    // Will be set on the <html /> tag
+    siteLanguage: `en`,
+    // Used for og:image and must be placed inside the `static` folder
+    siteImage: `/banner.jpg`,
+    // Twitter Handle
+    author: `@lekoarts_de`,
   },
   plugins: [
     {
       resolve: `@lekoarts/gatsby-theme-emilia`,
       // See the theme's README for all available options
-      options: {},
+      options: {
+        name: `Kelompok 3 Ankor`,
+        location: `Indonesia`,
+        socialMedia: [],
+      },
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
