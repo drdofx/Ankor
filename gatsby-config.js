@@ -21,15 +21,15 @@ module.exports = {
     // Used for og:image and must be placed inside the `static` folder
     siteImage: `/banner.jpg`,
     // Twitter Handle
-    author: `@lekoarts_de`,
+    author: ``,
   },
   plugins: [
     {
       resolve: `@lekoarts/gatsby-theme-emilia`,
       // See the theme's README for all available options
       options: {
-        name: `Kelompok 3 Ankor`,
-        location: `Indonesia`,
+        name: `Kelompok 3 Anti Korupsi`,
+        location: `Universitas Paramadina`,
         socialMedia: [],
       },
     },
