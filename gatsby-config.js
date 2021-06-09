@@ -7,13 +7,13 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 module.exports = {
   siteMetadata: {
     // Used for the title template on pages other than the index site
-    siteTitle: `Kelompok 3 Ankor`,
+    siteTitle: `Kelompok 3 Anti Korupsi`,
     // Default title of the page
-    siteTitleAlt: `Kelompok 3 Ankor`,
+    siteTitleAlt: `Kelompok 3 Anti Korupsi`,
     // Can be used for e.g. JSONLD
-    siteHeadline: `Kelompok 3 Ankor - Final Project`,
+    siteHeadline: `Kelompok 3 Anti Korupsi - Final Project`,
     // Will be used to generate absolute URLs for og:image etc.
-    siteUrl: `https://emilia.lekoarts.de`,
+    siteUrl: `https://ankorkel3.netlify.app`,
     // Used for SEO
     siteDescription: `Tugas akhir mengenai karya aksi nyata mata kuliah Anti Korupsi Universitas Paramadina`,
     // Will be set on the <html /> tag
@@ -28,9 +28,10 @@ module.exports = {
       resolve: `@lekoarts/gatsby-theme-emilia`,
       // See the theme's README for all available options
       options: {
-        name: `Kelompok 3 Anti Korupsi`,
+        name: `Kelompok 3 Anti Korupsi 2021`,
         location: `Universitas Paramadina`,
         socialMedia: [],
+        formatString: `DD/MM/YYYY`,
       },
     },
     {
